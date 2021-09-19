@@ -46,7 +46,7 @@ int main()
 	multiplicacao = num1 * num2;
 	divisao = num1 / num2;
 	
-	//Verificando qual a opção o usuário escolheu
+	//Verificando qual a opção o usuário escolheu e Apresentando o resultado ao usuário
 	if (sinal == 1){
 		cout << "A soma de " << num1 << " + " << num2 << " = " << soma;
 	}
@@ -59,5 +59,4 @@ int main()
 	else if (sinal == 4){
 		cout << "A divisão de " << num1 << " / " << num2 << " = " << divisao;
 	}
-	
 }
